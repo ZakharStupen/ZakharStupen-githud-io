@@ -163,7 +163,7 @@ letter-spacing: 0.05px;
 
 .gradient{
 	width: 1125px;
-	height: 126px;
+	height: 281px;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
 	position: fixed;
 	top: 2346px;
