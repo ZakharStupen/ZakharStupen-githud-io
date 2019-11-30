@@ -224,14 +224,14 @@ and (max-device-height : 667px){
 	.gradient{
 	
 	
-	top: 1926px;
+	top: 1800px;
 
 }
 
 .content{
 	
 	
-	top: 1751px;
+	top: 1841px;
 	
 }
 
@@ -250,10 +250,10 @@ and (min-device-width : 375px)
 and (max-device-height : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 	.gradient{
-		top: 2346px;
+		top: 2196px;
 	}
 	.content{
-			top: 2390px;
+			top:2731px;
 	left: 195px;
 
 	}
