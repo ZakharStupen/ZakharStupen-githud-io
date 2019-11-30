@@ -199,10 +199,10 @@ and (min-device-width : 320px)
 and (max-device-height : 568px){
 
 	.gradient{
-		top: 1870px;
+		top: 1780px;
 	}
 	.content{
-		top: 1940px;
+		top: 1820px;
 	}
 
 .close{
