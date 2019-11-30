@@ -199,10 +199,10 @@ and (min-device-width : 320px)
 and (max-device-height : 568px){
 
 	.gradient{
-		top: 1670px;
+		top: 1515px;
 	}
 	.content{
-		top: 1714px;
+		top: 1650px;
 	}
 
 .close{
@@ -224,14 +224,14 @@ and (max-device-height : 667px){
 	.gradient{
 	
 	
-	top: 1800px;
+	top: 1550px;
 
 }
 
 .content{
 	
 	
-	top: 1841px;
+	top: 1700px;
 	
 }
 
@@ -250,10 +250,10 @@ and (min-device-width : 375px)
 and (max-device-height : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 	.gradient{
-		top: 2196px;
+		top: 2000px;
 	}
 	.content{
-			top:2731px;
+			top:2080px;
 	left: 195px;
 
 	}
@@ -273,17 +273,15 @@ and (max-device-width : 736px)
 and (max-device-height : 736px) {
 .gradient{
 	width: 1242px;
-	height: 126px;
-	
-	top: 1890px;
+    top: 1563px;
 
 }
 
 .content{
 	width: 736px;
 	
-	top: 1944px;
-	left: 253px;
+	top: 1700px;
+	left: 207px;
 
 }
 
