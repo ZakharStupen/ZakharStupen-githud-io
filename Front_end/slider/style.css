@@ -1,0 +1,64 @@
+#gallery{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+}
+
+#gallery .photo div{
+	background: #FFFFFF;
+	box-shadow: 0px 5px 48px rgba(129, 110, 112, 0.1);
+	border-radius: 16px;
+	width: 770px;
+	height: 356px;
+	display: none;
+}
+
+
+#gallery .photo div:first-child{
+	display: block
+}
+
+
+
+
+.prev{
+	order: 1;
+	width: 44px;
+	height: 44px;
+	outline: none;
+	border: none;
+	background: rgba(255, 199, 176, 0.37);
+	border-radius: 22px;
+	margin: 156px 56px 0 0;
+	background-image: url(left.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.next{
+	order: 3;
+	width: 44px;
+	height: 44px;
+	outline: none;
+	border: none;
+	background: rgba(255, 199, 176, 0.37);
+	border-radius: 22px;
+	margin: 156px 0 0 56px;
+	background-image: url(right.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.photo{
+	order: 2;
+}
+
+
+
+
+
+
+
+

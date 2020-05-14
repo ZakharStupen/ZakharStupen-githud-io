@@ -1,0 +1,851 @@
+*{ margin: 0px; padding: 0px; box-sizing: border-box; }
+
+
+.modal{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(57, 57, 57, 0.8);
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	position: fixed;
+
+
+
+}
+
+
+
+
+
+
+
+.form_modal{
+	width: 300px;
+	padding: 32px;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px #ccc;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+		
+	margin: 0 auto;
+	height: 300px;
+	background-color: white;
+	
+}
+
+
+.form_input, .form_button{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+}
+
+.close_modal{
+	position: absolute;
+    top: 5px;
+    left: 1065px;
+
+}
+
+.modal_content{
+	margin-top: 100px;
+	position: relative;
+}
+
+
+.form_title_modal{
+	text-align: center;
+	margin: 0 0 32px 0;
+	font-weight: normal;
+}
+
+
+.form_group{
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.form_label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	color: #9e9e9e;
+	transition: 0.3s;
+}
+
+
+.form_input{
+	width: 100%;
+	padding:0 0 10px 0;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: transparent;
+	outline: none;
+	transition: 0.3s;
+}
+
+.form_input:focus{
+	border-bottom: 1px solid #1a73a8;
+}
+
+
+.form_button{
+	padding: 10px 20px;
+	border:none;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #455FA0;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s
+}
+
+.form_button:focus, .form_button:hover{
+	background-color: rgba(0,133, 240, 0.7);
+}
+
+
+
+.form_input:focus ~ .form_label,
+.form_input:not(:placeholder-shown) ~ .form_label{
+	top: -18px;
+	font-size: 12px;
+	color: #e0e0e0;
+}
+
+
+.container_zs{
+	height: 87px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.header_zs{
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+
+
+.logo_zs{
+	font-family: Saira Stencil One;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 55px;
+color: #2F4377;
+margin-top: 20px;
+}
+  
+
+.fa-map-marker-alt{
+	color: #063354;
+	font-size: 30px;
+}
+
+
+.fa-bars{
+	font-size: 24px;
+	color: #081E59;
+}
+
+.menu_zs{
+		font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #808080;
+		margin-top: 40px;
+		
+}
+ .menu_zs li{
+ 	display: inline-block;
+ 	margin: 0 30px;
+ }
+
+.menu_zs li a{font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #808080;
+margin-top: 40px;
+text-decoration: none;}
+
+
+.menu_zs li a:hover{
+	text-decoration:none;
+}
+
+
+.nav_zs{
+	margin-top: 34px;
+}
+
+ .nav_zs span{
+    color: #063354;
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+margin-right: 22.5px;
+ }
+
+
+.backgroound_zs{
+height: 100px;
+	background-color: #F7F7F7;
+} 
+
+
+.container_zs_2{
+	
+	display: flex;
+	width: 1200px;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+}
+
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 540px;
+    vertical-align: middle;
+    border-radius: 20px;
+    height: 45px;
+}
+
+
+.form__input, .form__button{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #A5A5A5;
+}
+
+.form__group{
+	position: relative;
+}
+
+
+.form__label{
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	color: black;
+	transition: 0.3s;
+
+}
+
+
+
+.form__input{
+	width: 540px;
+	height: 45px;
+	border: none;
+	border-radius: 20px;
+	
+	outline: none;
+	transition: 0.3s;
+	padding-left: 30px;
+}
+ 
+.form__input:focus{
+	border: solid 1px #4968B8;
+}
+
+
+.form__button{
+	width: 70px;
+	height: 45px;
+	background-color: #4968B8;
+	border-radius: 20px;
+	position: absolute;
+	left: 473px;
+	border: none;
+
+	color: white;
+	cursor: pointer;
+	transition: 0,3s;
+	outline: none;
+
+
+}
+
+.form__button:focus, .form__button:hover{
+   background-color: rgba(73, 104, 184, 0.7);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search__form{
+	display: flex;
+	position: relative;
+}
+
+
+.search{
+  margin-right: 55px;
+	margin-top: 20px;
+		
+}
+
+
+
+
+.catalog{
+margin-top: 35.5px;
+
+}
+
+ 
+.b{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+color: #081E59;
+}
+
+
+.burger{
+	margin-top: -8px;
+	margin-left: -15px;
+
+}
+
+
+	.icon{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 25px;
+		position: relative;
+		font-size: 24px;
+	}
+
+
+.icon_1{
+ position: absolute;
+ top: 0;
+ left: -163px;
+}
+.icon_2{
+position: absolute;
+ top: 0;
+ left: -89px;
+	
+}
+.icon_3{
+	position: absolute;
+ top: 0;
+ left: -15px;
+}
+
+
+
+.fa-list{font-size: 30px;
+padding-left: 10px;}
+
+
+.fa-th{
+	font-size: 30px;
+}
+
+
+
+.karta_tovara{
+	display: flex;
+
+	margin:50px auto;
+	width: 1200px;
+}
+
+
+
+.left{
+	width: 50%;
+	
+}
+
+
+
+.right{
+	width: 50%;
+	
+}
+
+
+.slider-nav{
+	margin-top: 30px;
+	width: 570px;
+}
+
+
+.slider-nav:active, :hover, :focus{
+	outline: 0;
+	outline-offset: 0;
+}
+
+.tovar_zs{
+	margin: 0 -50px; 
+}
+
+.tovar_zs2{
+	margin: 0 50px;
+}
+
+
+.tovar_zs:focus{
+
+}
+
+
+
+.text{
+	display: flex;
+}
+
+
+
+.text_1{
+	width: 50%;
+	text-align: left;
+	margin-left: 95px;
+}
+
+
+.text_2{
+	width: 50%;
+	text-align: right;
+}
+
+
+.text_1 p{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+
+}
+
+
+.text_1a{
+
+		 font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		color: #000000;
+		margin-top: 20px;
+		display: inline-block;
+
+}
+
+
+.text_1b{
+    
+		font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 24px;
+		color: rgba(0, 0, 0, 0.6);
+		display: inline-block;	
+		padding-left: 5px;
+}
+
+
+.text_1c{
+				font-family: Ubuntu;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 17px;
+			text-decoration-line: line-through;
+			display: inline-block;
+            margin-top: 14px;
+            padding-right:  14px;	
+
+			color: rgba(0, 0, 0, 0.7);
+}
+
+.text_1d{
+				font-family: Rubik;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: #455FA0;
+			display: inline-block;
+			margin-top: 13px;
+
+
+}
+
+
+.stars_zs{
+	margin-top: 21px;
+}
+
+
+.text_2 p{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 18px;
+}
+
+
+
+.color{
+		margin: 42px auto 0;
+	display: flex;
+justify-content: space-between;
+    margin-left: 95px;
+}
+
+
+
+
+.color_zs{
+	display: inline-block;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #000000;
+	margin-top: 30px;
+	margin-left: 95px;
+}
+
+
+.pink{
+	display: inline-block;
+		font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #213A7A;
+}
+
+.green{
+	display: inline-block;
+		font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #213A7A;
+	display: none;
+}
+
+.white{
+	display: inline-block;
+		font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #213A7A;
+	display: none;
+}
+
+
+
+.color1{
+	width: 139px;
+	height: 196px;
+	text-align: center;
+}
+
+
+.color2{
+	width: 139px;
+	height: 196px;
+	text-align: center;
+	
+}
+
+.color3{
+	width: 139px;
+	height: 196px;
+	text-align: center;
+}
+
+
+.button{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #F5E4EA;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+
+.button img{display: none;}
+
+.size ul li{
+	display: inline-block;
+	list-style: none;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #000000;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+
+.size p{
+	display: inline-block;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 18px;
+	color: #000000;
+}
+
+
+.size ul{
+	display: inline-block;
+}
+
+
+.size{
+	margin: 30px 0 0 96px;
+}
+
+
+.size ul li:focus{
+	color: #455FA0;
+}
+
+
+
+.knopka{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+
+
+.knopka_left{
+   text-align: center;
+   border: 2px solid #455FA0;
+	box-sizing: border-box;
+	border-radius: 100px;
+	width: 160px;
+     height: 40px;
+      font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000000;
+		cursor: pointer;
+		margin-left: 30px;
+}
+
+
+.knopka_right{
+     text-align: center;
+   border: 2px solid #455FA0;
+	box-sizing: border-box;
+	border-radius: 100px;
+	width: 255px;
+     height: 40px;
+      font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000000;
+		margin-left: 30px;
+		cursor: pointer;
+}
+
+
+
+.knopka_left p{
+   margin-top: 9px;
+}
+
+
+.knopka_right p{
+   margin-top: 9px;
+}
+
+
+
+
+
+.last_button{
+	display: flex;
+	margin-left: 94px;
+	margin-top: 50px;
+}
+
+
+
+.first_button{
+				font-family: Ubuntu;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			color: #000000;
+			text-align: center;
+			vertical-align: center;
+						width: 97px;
+			height: 30px;
+			cursor: pointer;
+}
+
+
+.last_button_zs{
+				font-family: Ubuntu;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			color: #000000;
+			text-align: center;
+			vertical-align: center;
+		    margin-left: 37px; 
+		    width: 91px;
+			height: 30px;
+			cursor: pointer;
+
+
+
+}
+
+
+.last_text1{
+	 width: 445px;
+	border-top: solid 1px #D7D7D7;
+	margin-left: 94px;
+	display: none;
+
+}
+
+
+.last_text1 ul li{
+	list-style: none;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 240.2%;
+	color: #000000;
+
+}
+
+
+.last_text1 ul li span{
+			font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 240.2%;
+		color: #2F4377;
+}
+
+
+
+
+.last_text2{
+	 width: 445px;
+	border-top: solid 1px #D7D7D7;
+	margin-left: 94px;
+	display: none;
+
+}
+
+
+.last_text2 ul li{
+	list-style: none;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 240.2%;
+	color: #000000;
+
+}
+
+
+.last_text2 ul li span{
+			font-family: Ubuntu;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 240.2%;
+		color: #2F4377;
+}
+
+
+
+

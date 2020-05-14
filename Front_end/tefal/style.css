@@ -1,0 +1,21 @@
+.boss{position: relative;}
+
+.a1{
+	position: absolute;
+	top: 150px;
+}
+
+
+.b2{position: absolute;
+	top: 150px;
+	left: -100px;
+
+}
+
+
+.boss:hover .b2 {top: 100px;
+transition: 3s;}
+
+
+.c3{position: absolute;
+top: 175px;}
